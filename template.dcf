@@ -1,0 +1,19 @@
+Package: BSgenome.Osativa.MSU.xzg 
+Title:  Oryza sativa full genome (MSU7)
+Description:  Oryza sativa full genome as provided by MSU (MSU7 Genome Release) and stored in Biostrings objects
+Version: 1.0
+Author: Xu ZhouGeng <xuzhougeng@163.com>
+Maintainer: Xu ZhouGeng <xuzhougeng@163.com>
+License: GPL (>= 2)
+organism: Oryza sativa
+common_name: Rice
+provider: MSU
+provider_version: MSU7
+release_date: 2011-10-31
+release_name: Oryza sativa full genome (MSU7)
+source_url: https://rapdb.dna.affrc.go.jp/download/irgsp1.html
+organism_biocview: Oryza_sativa
+BSgenomeObjname: Osativa
+seqs_srcdir: seq_path
+seqnames: c("Chr1","Chr2","Chr3","Chr4","Chr5","Chr6","Chr7","Chr8","Chr9","Chr10","Chr11","Chr12")
+circ_seqs: c("ChrC", "ChrM")
