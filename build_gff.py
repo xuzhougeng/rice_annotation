@@ -31,7 +31,7 @@ transcript_file = "transcripts.gff"
 for line in open(transcript_file):
     line = line.strip()
     items =  line.split('\t')
-    chrom = items[0].replace('0','').replace('c','C')
+    chrom = items[0].replace('hr0','hr').replace('c','C')
     start,end = items[3:5]
     score,strand,phase = items[5:8]
     feature_type = items[2]
