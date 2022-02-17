@@ -2,7 +2,15 @@
 
 基于RAP-DB网站的已有注释信息，进行整理，便于自己后续分析使用
 
+GFF转成GTF(GFF_to_cellranger_gtf)是我用来将GFF文件转成符合CellRanger输入要求的GTF写的程序
+
+```
+gff3_to_cellranger_gtf ./IRGSP_v1.gff IRGSP_v1.gtf
+```
+
+
 ## 建立索引
+
 
 ## R语言中使用
 

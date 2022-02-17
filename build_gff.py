@@ -11,7 +11,7 @@ locus_file = "locus.gff"
 for line in open(locus_file):
     line = line.strip()
     items =  line.split('\t')
-    chrom = items[0].replace('0','').replace('c','C')
+    chrom = items[0].replace('hr0','hr').replace('c','C')
     start,end = items[3:5]
     score,strand,phase = items[5:8]
     gene_ID = re.findall( 'ID=(.*?);', items[8] )[0]
